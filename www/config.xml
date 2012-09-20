@@ -9,6 +9,9 @@
         <gap:platform name="symbian.wrt"/>
         <gap:platform name="blackberry" project="widgets"/>
     </gap:platforms>
+	
+	<preference name="orientation" value="landscape" />
+	
 	<feature name="http://api.phonegap.com/1.0/network" />
 	<feature name="http://api.phonegap.com/1.0/camera" />
 	<feature name="http://api.phonegap.com/1.0/geolocation" />
