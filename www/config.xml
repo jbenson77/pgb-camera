@@ -16,7 +16,10 @@
         <gap:platform name="symbian.wrt"/>
         <gap:platform name="blackberry" project="widgets"/>
     </gap:platforms>
-	
+		
+	<preference name="phonegap-version" value="2.1.0" />
+
+		
 	<feature name="http://api.phonegap.com/1.0/device"/>
 	<feature name="http://api.phonegap.com/1.0/battery"/>
 	<feature name="http://api.phonegap.com/1.0/camera"/>
