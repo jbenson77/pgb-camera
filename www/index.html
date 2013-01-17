@@ -18,6 +18,7 @@
     function onDeviceReady() {
         pictureSource=navigator.camera.PictureSourceType;
         destinationType=navigator.camera.DestinationType;
+		console.log('Device Ready');
     }
 
     // Called when a photo is successfully retrieved
@@ -38,6 +39,7 @@
       // The inline CSS rules are used to resize the image
       //
       smallImage.src = "data:image/jpeg;base64," + imageData;
+	  console.log('Photo Successfully Captured: ' + imageData);
     }
 
     // Called when a photo is successfully retrieved
